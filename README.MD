@@ -2,7 +2,7 @@
 * node: ^22.15.30
 * docker 
 * docker-compose
-[https://docs.docker.com/desktop/setup/install/windows-install/]
+https://docs.docker.com/desktop/setup/install/windows-install/
 
 ## Сборка проекта 
 ```bash
@@ -23,7 +23,7 @@ node ./dist/app.js
 
 ## Пуллер
 Для теста накидал скриптик который кидает N запросов раз в секунду. Для запуска достаточно запустить pooller.exe (windows). 
-Можно пересобрать  exe со своими параметрами для этого нужен go [https://go.dev/doc/install]
+Можно пересобрать  exe со своими параметрами для этого нужен gohttps://go.dev/doc/install
 
 ```bash
 go build ./pooler.go
